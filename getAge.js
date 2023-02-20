@@ -3,7 +3,7 @@ function getAge(birthDate, datumDate) {
   // Make sure birthDate is before datumDate
   if (birthDate - datumDate > 0) return null;
 
-  var dob = new Date(+birthDate),
+  let dob = new Date(+birthDate),
       now = new Date(+datumDate),
       tDate = new Date(+dob),
       dobY = dob.getFullYear(),
