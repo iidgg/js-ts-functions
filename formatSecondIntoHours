@@ -1,3 +1,5 @@
+// i writed that function a few years ago
+
 function FormatSeconds(Time) {
   let FormattedSeconds = Time.toFixed(0);
 
