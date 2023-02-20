@@ -1,3 +1,5 @@
+// stolen, i just stole it of stackoverflow
+
 function getAge(birthDate, datumDate) {
 
   // Make sure birthDate is before datumDate
