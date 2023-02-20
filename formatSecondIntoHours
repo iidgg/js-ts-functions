@@ -1,4 +1,5 @@
-// i writed that function a few years ago
+// i writed that function a few years ago, i guess.
+// i don't really remember if i stole it or write it
 
 function FormatSeconds(Time) {
   let FormattedSeconds = Time.toFixed(0);
