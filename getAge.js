@@ -1,5 +1,32 @@
 // stolen, i just stole it of stackoverflow
 
+function daysInMonth(x) {
+  var d = new Date(x);
+  d.setDate(1);
+  d.setMonth(d.getMonth() + 1);
+  d.setDate(0);
+  return d.getDate();
+}
+
+/* For person born on birthDate, return their 
+** age on datumDate.
+**
+** Don't modify original date objects
+**
+** tDate is used as adding and subtracting
+** years, months and days from dates on 29 February 
+** can affect the outcome, 
+**
+** e.g.
+**
+** 2000-02-29 + 1 year => 2001-03-01
+** 2001-03-01 - 1 year => 2000-03-01 so not symetric
+**
+** Note: in some systems, a person born on 29-Feb
+** will have an official birthday on 28-Feb, other 
+** systems will have official birthday on 01-Mar.
+*/
+
 function getAge(birthDate, datumDate) {
 
   // Make sure birthDate is before datumDate
