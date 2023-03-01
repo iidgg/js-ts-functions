@@ -1,7 +1,7 @@
 // stolen, i just stole it of stackoverflow
 
 function daysInMonth(x) {
-  var d = new Date(x);
+  let d = new Date(x);
   d.setDate(1);
   d.setMonth(d.getMonth() + 1);
   d.setDate(0);
