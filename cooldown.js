@@ -20,6 +20,14 @@ function createCooldownFunction(callback, cooldownTime) {
 
 // Test
 
+function myFunction1() {
+  console.log('Function called');
+}
+
+function myFunction2() {
+  console.log('Function called');
+}
+
 const function1 = createCooldownFunction(myFunction1, 5000);
 const function2 = createCooldownFunction(myFunction2, 10000);
 
