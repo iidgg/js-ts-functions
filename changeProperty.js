@@ -18,3 +18,5 @@ const newArray = changeProperty(array, "age", "years");
 
 console.log(newArray);
 // Expected output: [{name: "John", years: 30}, {name: "Jane", years: 25}]
+
+// Typescript prepared at /ts/changeProperty.ts
