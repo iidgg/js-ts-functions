@@ -15,3 +15,5 @@ function toCamelCase(sentence) {
 const sentence = "The quick brown fox jumps over the lazy dog.";
 const camelCase = toCamelCase(sentence);
 console.log(camelCase); // Output: "theQuickBrownFoxJumpsOverTheLazyDog"
+
+// Typescript prepared at /ts/toCamelCase.ts
