@@ -1,6 +1,6 @@
 function compareObjects(obj1, obj2) {
   // Check if both are objects
-  if (typeof obj1 == "object" && typeof obj2 == "object") {
+  if (typeof obj1 === "object" && typeof obj2 === "object") {
     // Check if both have the same number of properties
     if (Object.keys(obj1).length !== Object.keys(obj2).length) {
       return false;
